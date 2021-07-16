@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+html {
+  background-color: #222;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+main h1 {
+  color: #9e0e9e;
+}
+main .container {
+  background-color: purple;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  margin: 10px auto;
+  height: 550px;
+  overflow: auto;
+}
+main .container div {
+  background-color: #ddd;
+  width: 60%;
+  padding: 50px;
+  color: #222;
+  margin: 10px;
+  border: 1px solid #eee;
+  border-radius: 30px;
+}
+main .container div h2 {
+  display: flex;
+  justify-content: space-between;
+}
+main .container div h2 span {
+  color: green;
+}
+main .container div h3 {
+  display: flex;
+  justify-content: space-between;
+}
+main .container div h3 span {
+  color: green;
+}
+main .container div p {
+  display: flex;
+  justify-content: space-between;
+  color: #444;
+}
+main .container div p span {
+  color: red;
+}
+main .user {
+  margin: 10px auto;
+}
+main .user input {
+  margin: 20px auto;
+  width: 70%;
+  margin: 10px auto;
+  padding: 15px;
+  display: block;
+  border-radius: 30px;
+  color: rgba(128, 0, 128, 0.829);
+}
+main .user .error {
+  color: red;
+  text-align: center;
+  margin: 5px auto;
+  font-size: 0.75em;
+}
+main .user .btn-add {
+  background-color: purple;
+  color: #eee;
+  border: 1px solid purple;
+  width: 80px;
+  width: 80px;
+  padding: 5px;
+  font-size: 3em;
+  border-radius: 50%;
+}
+main .user .btn-add:hover {
+  cursor: pointer;
+  background-color: rgba(128, 0, 128, 0.884);
+}
+main .user .btn-add:active {
+  background-color: rgba(128, 0, 128, 0.699);
+}
+
+footer {
+  color: rebeccapurple;
+}
+
+@media (max-width: 1080px) {
+  main .container {
+    width: 95%;
+  }
+  main .container div {
+    padding: 25px;
+    width: 90%;
+  }
+  main .user input {
+    width: 95%;
+  }
+}
+@media (max-width: 525px) {
+  main .container {
+    width: 100%;
+  }
+  main .container div {
+    padding: 15px;
+    width: 95%;
+  }
+  main .user input {
+    width: 98%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
