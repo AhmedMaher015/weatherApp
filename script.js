@@ -26,7 +26,7 @@ const addWeather = () => {
             if(req.status === 200){
 
                 // clear error label if user input true
-                clearError();
+                clearAll();
 
                 // store response massage in variable and convert it to JSON 
                 const data = JSON.parse(req.responseText)
@@ -62,6 +62,7 @@ userInput.addEventListener('keyup', (event)=>{
 
 
 // clear error text
-const clearError =  () => {
+const clearAll =  () => {
     error.textContent = '';
+    userInput.value = '';
 }
