@@ -23,7 +23,7 @@ main .container {
   align-items: center;
   border-radius: 30px;
   margin: 10px auto;
-  height: 550px;
+  height: 450px;
   overflow: auto;
 }
 main .container div {
