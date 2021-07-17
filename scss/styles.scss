@@ -111,6 +111,12 @@ main {
     }
 }
 
+button , input {
+    &:focus {
+        outline: none;
+    }
+  }
+
 footer {
     color: rebeccapurple;
 }

@@ -68,6 +68,10 @@ main .user input {
   border-radius: 30px;
   color: rgba(128, 0, 128, 0.829);
 }
+main .user input:hover {
+  border-radius: 30px;
+  border: 1px solid rgba(128, 0, 128, 0.829);
+}
 main .user .error {
   color: red;
   text-align: center;
@@ -90,6 +94,10 @@ main .user .btn-add:hover {
 }
 main .user .btn-add:active {
   background-color: rgba(128, 0, 128, 0.699);
+}
+
+button:focus, input:focus {
+  outline: none;
 }
 
 footer {
