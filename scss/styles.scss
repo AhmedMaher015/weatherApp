@@ -75,6 +75,11 @@ main {
             display: block;
             border-radius: 30px;
             color: rgba(128, 0, 128, 0.829);
+
+            &:hover {
+                border-radius: 30px;
+                border: 1px solid rgba(128, 0, 128, 0.829);
+            }
         }
 
         .error {
